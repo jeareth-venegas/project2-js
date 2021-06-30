@@ -88,8 +88,13 @@ function getTasks() {
       }
     });
   }
-
 }
+
+document.getElementById('btn_delete').addEventListener('click', ()=>{
+  const removeTask = localStorage.removeItem('tasks');
+  getTasks();
+  return removeTask;
+})
 
 function displayBlock() {
   document.querySelector(`.li_num_${contador}`).style.display = 'block';
