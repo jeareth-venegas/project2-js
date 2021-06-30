@@ -1,0 +1,24 @@
+El proyecto consiste en una aplicación de lista de tareas pendientes,
+donde el usuario puede agregar tareas y marcarlas a medida que las completa.
+
+
+Los requisitos de esta aplicación son:
+
+*El usuario debe poder agregar una tarea con un nombre y una categoría
+*La tarea se mostrará en la lista con el icono de categoría, el nombre y
+el tiempo que ha pasado desde que fue creada, este tiempo debe ser en segundos
+si se creó hace menos de un minuto, en minutos si se creó hace menos de un minuto,
+hace una hora, y horas después de eso.
+El usuario puede cambiar el nombre de la tarea, pero no la categoría.
+*El usuario puede eliminar una tarea.
+El usuario puede eliminar todas las tareas marcadas.
+*Hay al menos tres categorías (compras, tareas domésticas, escuela) pero los estudiantes
+pueden agregar más si lo desean.
+*Cada categoría tendrá un icono y color diferente (color de fuente o color de fondo)
+Al marcar un elemento de la lista, se agrega una línea tachada al texto y cambia su
+color a gris.
+*Los datos deben guardarse en el almacenamiento local para que al volver a cargar la
+página no se pierdan las tareas.
+El código debe hacerse utilizando módulos ES6 y OOP (clases ES6).
+Simulacros de guía: 
+https://drive.google.com/file/d/1GJ85IZG5QGwXhokFVuGccoKCCMQGMG2-/view?usp=sharing

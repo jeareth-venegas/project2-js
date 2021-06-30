@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="To-do list" />
+   <meta name="Keywords" content="javascript,web, proyecto" />
+   <meta name="author" content="Jeareth Venegas y Alex Daniel Guzmán" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+   <title>Todo List</title>
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+   <div class="cont_principal">
+      <div class="cont_centrar">
+         <h1>Lista de Tareas</h1>
+         <div class="cont_create_new">
+            <table class="table">
+               <tr>
+                  <th>Categoría</th>
+                  <th>Tarea</th>
+               </tr>
+               <tr>
+                  <td>
+                     <select name="" id="action_select">
+                        <option value="SHOPPING🛒">SHOPPING</option>
+                        <option value="HOMEWORK👨‍🎓">HOMEWORK</option>
+                        <option value="SCHOOL📐">SCHOOL</option>
+                     </select>
+                  </td>
+                  <td>
+                     <input type="text" class="input_title_desc" placeholder="Escriba su tarea" required />
+                  </td>
+               </tr>
+               <tr>
+                  <th class="titl_description">Descripción</th>
+               </tr>
+               <tr>
+                  <td colspan="3">
+                     <input type="text" class="input_description" placeholder="Añada una descripción a su tarea"
+                        required />
+                  </td>
+               </tr>
+               <div class="delete-selected">
+                  <tr>
+                     <td colspan="3">
+                        <button class="btn_add" id="btn_add">Añadir</button>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td colspan="3">
+                        <button class="btn_del" id="btn_delete">Borrar todo</button>
+                        </td>
+                     </tr>
+                  </div>
+               </table>
+            </div>
+
+            <div class=" cont_princ_lists">
+                           <ul id="task_list">
+                           </ul>
+                           <tr>
+                              <td colspan="3">
+                                 <button class="btn_edit" id="edit">Editar</button>
+                                 </td>
+                              </tr>
+               </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
