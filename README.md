@@ -12,7 +12,7 @@ El presente proyecto es una lista de tareas que cuenta con las siguientes funcio
 
 
 -
-*Deseamos recibir correcciones sobre lo que nos falta para mejorar en las funcionalidades como editar, borrar todo(de la pantalla o del logal storage), borrar una tarea correctamente y que se tachen correctamente para poder mejorar esto más adelante.*
+*Deseamos recibir correcciones sobre lo que nos falta para mejorar en las funcionalidades como editar, borrar todo(de la pantalla o del local storage), borrar una tarea correctamente y que se tachen correctamente para poder mejorar esto más adelante.*
 
  ### Links que usamos como referencias sobre Todo List:
 
